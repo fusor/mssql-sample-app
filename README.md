@@ -2,9 +2,9 @@
 
 This is a sample app built with Node JS, Express and MSSQL for demo purpose.
 
-# Installation
+## Installation
 
-## Native Installation
+### Native Installation
 
 To install the app on your machine, clone this repository.
 
@@ -32,7 +32,7 @@ npm install
 node app.js
 ```
 
-## Docker Installation
+### Docker Installation
 
 Make sure you have set `MSSQL_*` environment variables. 
 
@@ -56,3 +56,14 @@ Push the docker image to your registry using
 make push
 ```
 
+### Usage
+
+The app is launched at `localhost:3000`
+
+Look under routes directory to know more about all the available routes and actions.
+
+### License
+
+This app is based on original work published by Microsoft in [this repo](https://github.com/microsoft/sql-server-samples)
+
+See license.txt for more information.
