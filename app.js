@@ -21,6 +21,7 @@ app.use(function (req, res, next) {
 
 app.use(bodyParser.text()); 
 app.use('/todo', require('./routes/todo'));
+app.use('/ping', require('./routes/ping'));
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
